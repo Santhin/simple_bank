@@ -13,4 +13,7 @@ sqlc:
 test:
 	go test -v -cover ./...
 
-.PHONY: up migrateup migratedown test
+server:
+	go run main.go
+
+.PHONY: up migrateup migratedown test server
