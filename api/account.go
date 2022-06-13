@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	db "github.com/santhin/simplebank/db/sqlc"
+	db "github.com/santhin/simple_bank/db/sqlc"
 )
 
 type createAccountRequest struct {

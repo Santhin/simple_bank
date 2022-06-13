@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/santhin/simplebank/util"
+	"github.com/santhin/simple_bank/util"
 	"github.com/stretchr/testify/require"
 )
 
