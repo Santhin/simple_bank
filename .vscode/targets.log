@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Jun 13 18:50:33 2022
+# Make data base, printed on Mon Jun 13 20:03:33 2022
 
 # Variables
 
@@ -20,6 +20,7 @@ make: *** No rule to make target `all'.  Stop.
 ?F = $(notdir $?)
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
+ 
 # environment
 LC_CTYPE = UTF-8
 # environment
@@ -41,7 +42,7 @@ _ = /usr/bin/make
 # environment
 GOOGLE_APPLICATION_CREDENTIALS = /Users/piotrsierkin/.gcp/gid-dataops-labs-aa2dce968042.json
 # environment
-STARSHIP_SESSION_KEY = 1444945582894717
+STARSHIP_SESSION_KEY = 4371769912129341
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -50,9 +51,8 @@ VSCODE_VERBOSE_LOGGING = true
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
- 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/q2/_rmyrl9j2rv10rlq1c73b7rc0000gn/T/vscode-ipc-5c9b9314-c9fc-4e54-b258-744685e37ec2.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/q2/_rmyrl9j2rv10rlq1c73b7rc0000gn/T/vscode-ipc-46c8c120-e2ac-4c71-86ea-d2f025f50f20.sock
 # environment
 VSCODE_CWD = /Users/piotrsierkin/Documents/side-projects/simple_bank
 # environment
@@ -132,7 +132,7 @@ USER = piotrsierkin
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t0p0:13A1F1E2-7623-4A5B-8033-94831BE06209
+TERM_SESSION_ID = w0t0p0:36B38615-98B1-4BCF-AAA7-5A6AFBA044E6
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -156,7 +156,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.4.15
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.2959912.2959918.5164B1DA-AF33-43BB-8E08-033A250B4F57
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2959912.2959918.CC4344F2-619A-4BA7-94FF-A3A821D42A88
 # environment
 LC_TERMINAL_VERSION = 3.4.15
 # environment
@@ -168,7 +168,7 @@ PYENV_HOOK_PATH = /Users/piotrsierkin/.pyenv/pyenv.d:/opt/homebrew/Cellar/pyenv/
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t0p0:13A1F1E2-7623-4A5B-8033-94831BE06209
+ITERM_SESSION_ID = w0t0p0:36B38615-98B1-4BCF-AAA7-5A6AFBA044E6
 # environment
 PYENV_VERSION = 3.8.13
 # environment
@@ -196,6 +196,7 @@ SUFFIXES :=
 # environment
 POETRY_ACTIVE = 1
 # environment
+ 
 MAKELEVEL := 0
 # environment
 LANG = C
@@ -233,7 +234,6 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
- 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 .PHONY: up migrateup migratedown test server
@@ -328,6 +328,6 @@ migratedown:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jun 13 18:50:33 2022
+# Finished Make data base on Mon Jun 13 20:03:33 2022
 
  
