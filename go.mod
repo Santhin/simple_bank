@@ -2,7 +2,7 @@ module github.com/santhin/simple_bank
 
 go 1.21.0
 
-toolchain go1.24.1
+toolchain go1.24.3
 
 require (
 	github.com/gin-gonic/gin v1.10.1
